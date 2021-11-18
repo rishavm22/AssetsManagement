@@ -52,7 +52,7 @@ public class AssetController {
 	}
 	
 	//To Recover Asset
-	@PatchMapping("/assign/{asset_id}")
+	@PatchMapping("/recover/{asset_id}")
 	public ResponseEntity<Asset> assignAsset(@RequestParam Long asset_id) {
 		Asset result = assetService.recoverAsset(asset_id);
 		return new ResponseEntity<>(result, HttpStatus.OK);
