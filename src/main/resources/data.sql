@@ -1,0 +1,14 @@
+INSERT INTO ASSET_CATEGORY VALUES (1, 'Type 1', 'Desc');
+INSERT INTO ASSET_CATEGORY VALUES (2, 'Type 2', 'Desc');
+INSERT INTO ASSET_CATEGORY VALUES (3, 'Type 3', 'Desc');
+INSERT INTO ASSET_CATEGORY VALUES (4, 'Type 4', 'Desc');
+
+INSERT INTO EMPLOYEE VALUES (1, 'Full Name 1', 'Owner');
+INSERT INTO EMPLOYEE VALUES (2, 'Full Name 2', 'Manager');
+INSERT INTO EMPLOYEE VALUES (3, 'Full Name 3', 'Engineer');
+INSERT INTO EMPLOYEE VALUES (4, 'Full Name 4', 'Staff');
+
+INSERT INTO ASSET VALUES (1, null, 1, 'Good', 'ITEM 1', '2015-05-17', 'Available');
+INSERT INTO ASSET VALUES (2, null, 2, 'Good', 'ITEM 2', '2015-05-17', 'Available');
+INSERT INTO ASSET VALUES (3, null, 2, 'Good', 'ITEM 3', '2015-05-17', 'Available');
+INSERT INTO ASSET VALUES (4, null, 3, 'Good', 'ITEM 4', '2015-05-17', 'Available');
